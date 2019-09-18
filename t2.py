@@ -6,12 +6,10 @@
 #    print(dir(turtle))   # список всех имён, определённых в модуле
 
 
-import turtle
+import turtle   # модуль для рисования "черепашка"
 t = turtle.Turtle()
 t.shape('turtle')
 turtle.goto(0,0)
-
-
 
 turtle.forward(100)
 turtle.left(90)
